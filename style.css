@@ -1,0 +1,37 @@
+*{
+  margin: 0px;
+}
+.payment {
+  margin-left: 15%;
+  color:orange;
+  justify-content: center;
+  @media(max-width:500px) {
+    .container{
+      font-size: 400px;
+    }
+}
+}
+.container {
+  width:300px;
+  height: 400px;
+  background-color: rgb(66, 71, 71);
+  margin-left: 50px;
+  border: 1px solid  orange;
+ 
+h3 {
+  font-family: "Tilt Neon", sans-serif;
+}
+.btn {
+  font-size: 15px;
+  color:black;
+  background-color: orange;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top:25px ;
+}
+.btn:hover {
+  color: orange;
+  background-color:black;
+}
+}
